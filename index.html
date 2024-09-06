@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS Flag Project</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .box {
+        background-color: white;
+        width: 500px;
+        height: 300px;
+      }
+      .blue-line {
+        background-color: blue;
+        height: 50px;
+        width: 500px;
+        position: relative;
+        top: 10px;
+      }
+      .blue-line-b {
+        background-color: blue;
+        height: 50px;
+        width: 500px;
+        position: absolute;
+        top: 250px;
+      }
+      div > div > p {
+        position: relative;
+        top: 10px;
+        padding: 0;
+        margin: 0;
+        color: blue;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 10rem;
+      }
+    </style>
+  </head>
+
+  <!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+  <body>
+    <div class="flag">
+      <div class="box">
+        <div class="blue-line"></div>
+        <p>✡</p>
+        <div class="triangle-top">
+          <div class="triangle-tw"></div>
+        </div>
+        <div class="triangle-b">
+          <div class="triangle-bw"></div>
+        </div>
+        <div class="blue-line-b"></div>
+      </div>
+      <div>
+        <div></div>
+      </div>
+    </div>
+  </body>
+</html>
